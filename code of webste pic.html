@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background: #333;
+      color: #fff;
+      padding: 15px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00bcd4;
+    }
+
+    /* Sections */
+    section {
+      height: 100vh;
+      padding: 80px 20px; /* 80px to avoid navbar overlap */
+    }
+
+    #home {
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #about {
+      background: #f4f4f4;
+      text-align: center;
+    }
+
+    #projects {
+      background: #e2e2e2;
+      text-align: center;
+    }
+
+    #contact {
+      background: #333;
+      color: white;
+      text-align: center;
+    }
+
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      max-width: 600px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to My Website</h1>
+    <p>This is the home section where you introduce your website.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+     <h1>bhargavi yarredla</h1>
+    <p>Hello! I’m <div bhargavi=""></div>, and this is a short description about me.</p>
+         
+          <img src="c:\Users\Bhargavi\OneDrive\Desktop\PASS.jpg" width="400px" height="600px" alt="A Photo Of Me">
+          <p>* I am passionate web developer with a focus on front end technologies.</p>
+ 
+          <P>* I am currently pursuing my b.tech in<em> Teegala Krishna Reddy Engineering College,Meerpet. </em></P>
+ 
+          <p>* I have learnt web development from<br> code with swaroop.</p>
+ 
+          <p>* You can <strong>CLICK HERE</strong> to Checkout What I have learnt in HTML,CSS,JS.</p>
+
+        </section>
+
+  </section>
+
+  <!-- Projects Section -->
+  <section id="Projects">
+            <h1>MY PROJECTS</h1>
+            <table border="1"> 
+                <tr>
+                    <th>Projects</th>
+                    <th>Description</th>
+                    
+                </tr>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>I have built a portfolio website by using HTML,CSS,JAVASCRIPT</td>
+                </tr>
+            </table>
+        </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yarradlabhargavi@gmail.com</p>
+    <p>Phone: +91 8688436047</p>
+  </section>
+
+</body>
+</html>
